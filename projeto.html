@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="projeto.css">
+    <meta charset="UFT-8">
+    <title>Minhas anotações - projeto Udacity</title>
+  </head>
+  <body>
+    <div>  <!-- a tag <span></span> não foi utilizada nesta página, pois, segundo estudos secundarios, a tag serve para estilizar algumas palavras utilizando o css.. maiores detalhes https://www.htmlprogressivo.net/2014/01/span-tag-Como-agrupar-elementos-inline-HTML-CSS-SPAN.html  " -->
+      <h1>World Wide Web</h1>
+      <p>
+        <img scr="http://www.chicagoslacklinersassociation.com/wp-content/uploads/2018/07/eee8f6448b5c6670e7be58bcb698012d.png" alt="WWW" width="120" height="70">
+      </p>
+      <p>
+      <div class="description"><strong>World Wide Web</strong> é um sistema de documetos dispostos na internet que <!--- as tags <strong> e <b> tem, praticamente, a mesma função, porém elas exite uma distinção entre elas... maiores detalhes: https://pt.stackoverflow.com/questions/32289/qual-%C3%A9-a-diferen%C3%A7a-sem%C3%A2ntica-entre-em-e-strong-eles-substituem-i-e-b --->
+      permitem o acesso às informações apresentadas no formato de <em>hipertexto</em>,
+      para ter acesso a tais informações é necessário utilizar um programa de
+      computador chamado de navegador. Os navegadores mais utilizados são: <em>Google
+      Chrome, Mozilla Firefox, Safari, Internet Explorer, Opera</em>, entre outros.
+      <em>Hipertextos</em> são textos exibidos em formato digital, os quais podem conter
+      informações em formato de imagens, sons, vídeos, etc. O acesso a tais
+      informações se dá por meio de <em>links</em>, que servem como uma ponte entre os
+      mais diversos sites da internet e seus conteúdos. A <b>web</b> é composta por
+      documentos <strong>HTML</strong> - ou <strong><em>Hypertext Markup Language</em></strong>- que é a
+      linguagem que os computadores usam para interpretar páginas <em>web</em>.
+      </p>
+      </div>
+    </div>
+    <div>
+      <h1><b>Como funciona a web</b></h1>
+      <p>
+       O <b>cliente</b> (indivíduo, computador e o navegador) faz solicitações à <b>internet</b> para os
+       <b>servidores</b> (Computadores que hospedam os arquivos que compõem a <em>web</em>),
+       o servidor encontra a página solicitada e envia a mesma para o navegador,
+       o navegador resgata a página em formato <b>HTML</b> e, por fim, compacta em
+       formato visual para o usuário. O protocolo <b><em>HTTP</em></b> é utilizado pelo navegador
+       para se comunicar com os servidores. O principal tipo de documento da <em>web</em>
+       é o <b>HTML</b>.<br>
+       Para mais informações, clique <a href=https://pensandonaweb.com.br/como-funciona-a-internet-e-a-world-wide-web/><b>aqui</b></a>.
+      </p>
+    </div>
+    <div>
+      <h1><b>HTML</b></h1>
+      <p>
+       <b>HTML</b> é um editor de <b>hipertexto</b>, utilizado para criação de páginas online
+       e aplicações <em>web</em>.<br>
+       <b>HTML</b> é, basicamente, o coração da <em>web</em>, ou seja, é a linguagem base da internet que mantém todo o conteúdo
+       da mesma juntos (textos simples, imagens, vídeos e músicas).<br>
+       <b>HTML</b> é formada por: <b>conteúdo de texto</b>; <b>marcação</b>, que é a aparência desse
+       conteúdo ou como ele é organizado; <b>referências</b> a outros conteúdos, como
+       imagens e vídeos; e <b><em>links</em></b> para outras páginas como, por exemplo:
+       <a href=https://www.youtube.com/><em>https://www.youtube.com</em></a><br>
+       Para maiores informalções, clique <a href=https://pt.wikipedia.org/wiki/HTML><b>aqui</b></a>.
+      </p>
+    </div>
+    <div>
+      <h1><b>Tags < > < / ></b></h1>
+      <p>
+        <b>HTML</b> é uma linguagem baseada em <b>marcação</b>; você marca o
+       <b>elemento</b> para mostrar quais informações será exibida na página. Os elementos
+       em <b>HTML</b> consistem em uma <em>tag</em> de abertura (< >) e uma <em>tag</em> de fechamento
+       (< / >) com algum conteúdo entre elas como, por exemplo,
+       < tag de abertura > <em>Oi, como vai você?</em> < /tag de fechamento>
+
+       <p><b>Exemplo de tag</b>:< <em><b>b</b> >Oi, como vai você?< /<b>b</b> ></em></p>
+
+       Podemos observar que o nome de ambas as <em>tags</em> são os mesmos, entretanto,
+       vale ressaltar que a <em>tag</em> de de fechamento contém uma barra <b>< / ></b>, ao
+       contrario da <em>tag</em> de abertura <b>< ></b> que não contém barra.<br>
+       Podemos nos referir ao conjuto de < > e < / > como <b>elemento(s)</b>.
+      </p>
+    </div>
+    <div>
+      <h1><b>Exemplos de elementos</b></h1>
+      <p>
+        <p>O objetivo desta sessão é mostrar para que serve alguns dos <b>elementos</b> apresentados no curso
+        até o momento</p>
+
+        <p><b>< b >exemplo< /b ></b> o texto fica em <b>negrito</b><br> -- elemento <b>alinhado</b></p>
+
+        <p><b>< em >exemplo< /em ></b> o texto fica em <em>itálico</em> -- elemento <b>alinhado</b></p>
+
+        <p><b>< p >texto< /p ></b> parágrafo, este elemento cria uma "caixa invisivel" ao redor do texto -- elemento <b>block</b>
+        do texto.</p>
+
+        <p><b>< br > ou quebra (break)</b>, quebra a linha de um paragrafo.<br> -- elemento <b>alinhado</b>, <b>vazio</b></p>
+
+        <p><b>< img scr="link" alt= texto que aparece quando a imagem não carrega width= largura da imagem height= altura da imagem ></b>,
+        serve para inserir imagens na pagina, exemplo < img scr="https://d298hcpblme28l.cloudfront.net/images/products/b1a472ec302d5b3fe3b64ad1c4061122_resize.jpg" alt="Coelho" width="120" height="70" >
+         -- elemento <b>alinhado</b>, <b>vazio</b></p>
+
+        <p><img scr="https://d298hcpblme28l.cloudfront.net/images/products/b1a472ec302d5b3fe3b64ad1c4061122_resize.jpg" alt="Coelho" width="120" height="70"></p>
+
+        <p><b>< a href=link>link< /a ></b> serve para inserir <a href=https://br.udacity.com/><b>link</b></a> nas páginas -- elemento <b>alinhado</b></p>
+
+        <p><b>< html >página< /html ></b> tudo que estiver na página deve ficar dentro dessa tag.</p>
+
+        <p><b>< head >exemplo< /head ></b> é usada como um cabeçalho</p>
+
+        <p><b>< title >exemplo< /title ></b> titulo na aba da página.</p>
+
+        <p><b>< body >conteúdo< /body></b> todo o conteúdo da página fica dentro dessa tag.</p>
+
+        <p><b>< div >conteúdo< /div ></b> <em>"O nome div vem de divisão, e esta tag vai lhe dar
+        o simples poder de dividir qualquer trecho de seu código. Isso mesmo,
+        você pode criar um bloco, uma divisão, e dentro deste bloco ter uma imagem,
+        links, textos e o que mais você quiser."</em> agrupa <b>elemento</b> em block -- elemento <b>block</b></p>
+
+        <b>< span ></b> agrupa elemento <b>inline</b> -- elemento <b>inline</b>
+        <p><b>Observações</b></p>
+        <p>Vale ressaltar que é necessário sempre fechar as "tags com conteúdo" (< / >),
+           enquanto as tags vazias como < br > e < img... > não necessita de fechamento.</p>
+      </p>
+    </div>
+    <div>
+      <h1>Diferença entre tag vazia e tag com "conteúdo"</h1>
+      <p>
+        <em>Tag</em> vaizia é uma tag que não tem conteúdo, por exemplo, a <em>tag</em> < <b>br</b> > não tem nenhum
+        tipo de conteúdo, pois sua função é de "quebrar" a linha - lembrando que uma <em>tag</em> vazia
+        não tem fechamento < / > -; enquanto a <em>tag</em> de "conteúdo" são aquelas
+        que, obviamente, tem algum tipo de conteúdo em seu meio, por exemplo < <b>em</b> >olá< <b>/em</b> >.
+      </p>
+    </div>
+    <div>
+      <h1>Inline e Block</h1>
+      <p>
+        <b>Inline</b> - elementos inline é o que está no texto, por exemplo:
+        bom dia < br (<b>elemento inline</b> -quebra de linha) > você não respondeu o meu e-mail.<br>
+        <b>block</b> - são os elementos que criam uma "caixa" ao redor do texto, por exemplo:<br>
+          <p>
+            < p (<b>elemento block</b> -  paragrafo) ><br>
+            <em>"Um produto é algo feito em fábricas;
+            uma marca é algo que é comprado pelo consumidor. Um produto pode ser copiado
+            por um concorrente; uma marca é única. Um produto pode ficar rapidamente obsoleto;
+            uma marca de sucesso é eterna"</em>.<br>
+            < /p >
+          </p>
+      </p>
+      </div>
+      <div>
+        <h1><b>Atributos</b></h1>
+        <p>
+            Os atrubutos, basicamente, dispõem informações adicionais ao navegador, por exemplo:
+            < <b>a</b> href(atributo)=link(valor) alt(atributo)=texto(valor) >exemplo< /<b>a</b> ><br>
+            Outro exemplo: < <b>img</b> scl(atributo)=link(valor) alt(atributo)=texto(valor)>.
+      </div>
+    <div>
+        <h1><b>Computadores são burros</b></h1>
+        <p>
+          Segundo o que foi apresentado, os computadores não conseguem interpretar
+          informações sozinhos, pois eles dependem do ser humano para serem conduzidos.<br>
+          -O computador depende de nós para funcionar;<br>
+          -Nós precisamos dizer a ele exatamente o que queremos;<br>
+          -Se não fizermos nada, o computador ficará imóvel, sem fazer nada;<br>
+          (fonte: <a href=http://www.cursosdeinformaticabasica.com.br/o-computador-e-burro-porem-obediente/><b>O computador é burro, porém, obediente!</b></a>).<br>
+          Para maiores informações, clique <a href=http://carlosamarques.blogspot.com/2011/06/os-computadores-sao-maquinas-burras.html><em><b>aqui</b></em></a>
+        </p>
+    </div>
+    <div>
+      <h1><b>Estrutura básica de um documento <em>HTML</em></b></h1>
+        <p>
+          Segundo estudos secundários e o que foi apresentado no curso:<br>
+          < !DOCTYPE html ><br>
+          < html ><br>
+          -< head ><br>
+          --< meta charset = "UFT-8" ><br>
+          --< title >texto< /title ><br>
+          -< /head ><br>
+          -< body ><br>
+          -< div ><br>
+          --< h1 >exemplo< /h1 ><br>
+          --< p ><br>
+          ---conteúdo<br>
+          --< /p ><br>
+          -< /div ><br>
+          -< /body ><br>
+          < /html ><br>
+        </div>
+  </body>
+</html>
